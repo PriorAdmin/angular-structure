@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Tree Structure
 .
-├── e2e
+├── e2e\n
 │   └── src
 └── src
     ├── app
