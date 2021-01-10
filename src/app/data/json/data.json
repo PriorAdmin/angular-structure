@@ -1,0 +1,16 @@
+{
+    "menuList":  [
+        {
+            "id": "1",
+            "name": "Home",
+            "icon": "https://s3.amazonaws.com/uifaces/faces/twitter/anthonysukow/128.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Contact",
+            "icon": "https://s3.amazonaws.com/uifaces/faces/twitter/_vojto/128.jpg"
+        }
+    ]
+}
+    
+   
