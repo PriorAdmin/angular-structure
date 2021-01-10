@@ -24,13 +24,17 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
         └── button   
 
 ## Install
--- angular cli --
-npm install -g @angular/cli  (fix version => npm install @angular/cli@9.1.9)
+Angular cli 
+```bash
+npm install -g @angular/cli #(fix version => npm install @angular/cli@9.1.9)
 ng new my-name-project
--- directory ---
+```
+Directory
+```bash
 ng generate module Core
 ng generate module Shared
 ng generate module Data
 mkdir src/app/layout
 mkdir src/app/modules
 mkdir src/styles && mkdir src/styles/fonts && mkdir src/styles/button
+```
