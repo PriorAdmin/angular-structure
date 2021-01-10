@@ -41,5 +41,5 @@ mkdir src/styles && mkdir src/styles/fonts && mkdir src/styles/button
 ```
 Angular Material
 ```bash
-  ng add @angular/material
+ng add @angular/material
 ```
