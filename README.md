@@ -13,13 +13,13 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 │   └── src
 └── src
     ├── app
-    │   ├── core (@app)
+    │   ├── core 
     │   ├── data
     │   ├── layout
     │   ├── modules
-    │   └── shared (@shared)
+    │   └── shared
     ├── assets
-    ├── environments ([@env] -> dev,uat,prod)
+    ├── environments #dev,uat,prod
     └── styles
         └── fonts
         └── button   
