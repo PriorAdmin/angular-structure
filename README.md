@@ -39,3 +39,7 @@ mkdir src/app/layout
 mkdir src/app/modules
 mkdir src/styles && mkdir src/styles/fonts && mkdir src/styles/button
 ```
+Angular Material
+```bash
+  ng add @angular/material
+```
