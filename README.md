@@ -7,6 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Tree Structure
+```bash
 .
 ├── e2e
 │   └── src
@@ -22,7 +23,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
     └── styles
         └── fonts
         └── button   
-
+```
 ## Install
 Angular cli 
 ```bash
