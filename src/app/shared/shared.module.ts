@@ -4,7 +4,6 @@ import {MaterialModule} from './material.module';
 import {InputTypeNumberDirective} from './utils/inputTypeNumber';
 import {SnackbarComponent} from './component/snackbar/snackbar.component';
 import {ReactiveFormsModule, FormsModule} from '@angular/forms';
-
 @NgModule({
   declarations: [InputTypeNumberDirective, SnackbarComponent],
   imports: [CommonModule, MaterialModule, FormsModule, ReactiveFormsModule],

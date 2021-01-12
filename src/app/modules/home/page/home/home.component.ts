@@ -7,6 +7,7 @@ import {HomeServiceService} from 'src/app/data/service/home/home-service.service
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
+  textInput: string = '';
   constructor(private homeService: HomeServiceService) {}
 
   async ngOnInit() {
