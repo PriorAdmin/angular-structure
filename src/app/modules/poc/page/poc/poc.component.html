@@ -1,0 +1,21 @@
+<div class="row mt-5">
+  <div class="col-12">
+    <mat-card>
+      <app-app-form></app-app-form>
+    </mat-card>
+  </div>
+</div>
+<div class="row mt-5">
+  <div class="col-12">
+    <mat-card>
+      <app-app-form-dynamic
+        [control]="control"
+        (submitForm)="onSubmit($event)"
+      ></app-app-form-dynamic>
+
+      <div class="text-center mt-3">
+        {{ response }}
+      </div>
+    </mat-card>
+  </div>
+</div>

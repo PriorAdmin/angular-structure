@@ -1,0 +1,54 @@
+<div class="row">
+  <div class="col-12">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <div class="row">
+        <div class="col-6">
+          <span>ชื่อ <label class="required">*</label></span>
+          <mat-form-field appearance="outline">
+            <input formControlName="firstName" matInput />
+            <mat-error *ngIf="firstName.invalid">กรุณาระบุ</mat-error>
+          </mat-form-field>
+        </div>
+        <div class="col-6">
+          <span>นามสกุล <label class="required">*</label></span>
+          <mat-form-field appearance="outline">
+            <input formControlName="lastName" matInput />
+            <mat-error *ngIf="lastName.invalid">กรุณาระบุ</mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-6">
+          <span>เบอร์โทรศัพท์ <label class="required">*</label></span>
+          <mat-form-field appearance="outline">
+            <input type="number" formControlName="mobile" matInput />
+            <mat-error *ngIf="mobile.invalid">กรุณาระบุ</mat-error>
+          </mat-form-field>
+        </div>
+        <div class="col-6">
+          <span>อีเมล</span>
+          <mat-form-field appearance="outline">
+            <input formControlName="email" matInput />
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12 text-center">
+          <button
+            type="submit"
+            [disabled]="!form.valid"
+            mat-raised-button
+            color="primary"
+          >
+            submit
+          </button>
+        </div>
+      </div>
+    </form>
+    <div class="row mt-3">
+      <div class="col-12 text-center">
+        {{ response }}
+      </div>
+    </div>
+  </div>
+</div>

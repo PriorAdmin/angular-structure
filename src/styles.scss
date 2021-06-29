@@ -1,5 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~@angular/material/prebuilt-themes/indigo-pink.css';
-@import 'styles/font.scss';
-@import 'styles/button.scss';
-@import 'styles/variable.scss';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "styles/font.scss";
+@import "styles/button.scss";
+@import "styles/variable.scss";
+.mat-form-field-appearance-outline .mat-form-field-infix {
+  padding: 0.5em 0 1em 0;
+}
+
+.bg {
+  background-color: #c1bfbf59;
+}
+
+span,label {
+  font-size: 14px;
+}
+.required {
+  color: red;
+}
+
+.mat-form-field-appearance-outline.mat-form-field-disabled .mat-form-field-outline {
+  color: rgba(0, 0, 0, 0.06);
+  background: rgba(0, 0, 0, 0.05) !important;
+  border-radius: 4px;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.mat-form-field-appearance-outline {
+  .mat-form-field-outline-thick {
+    color: #00a6e6;
+  }
+
+  &.mat-focused {
+    .mat-form-field-outline-thick {
+      color: #00a6e6;
+    }
+  }
+}
+
+.mat-form-field.mat-focused .mat-form-field-label {
+  color: #00a6e6;
+}
+.mat-form-field.mat-form-field-invalid {
+  .mat-form-field-label {
+    color: red;
+  }
+}
+
+.mat-checkbox-checked .mat-checkbox-background {
+  background-color: #00a6e6 !important;
+}
+
+.mat-form-field-subscript-wrapper {
+  position: initial !important;
+}

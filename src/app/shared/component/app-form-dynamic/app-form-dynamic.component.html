@@ -1,0 +1,20 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <div class="row">
+    <div class="col-6" *ngFor="let item of control">
+      <app-app-control-dynamic
+        [control]="item"
+        [form]="form"
+      ></app-app-control-dynamic>
+    </div>
+  </div>
+  <div class="text-center">
+    <button
+      type="submit"
+      [disabled]="!form.valid"
+      mat-raised-button
+      color="primary"
+    >
+      submit
+    </button>
+  </div>
+</form>
