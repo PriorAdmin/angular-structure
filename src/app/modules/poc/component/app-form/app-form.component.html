@@ -3,14 +3,14 @@
     <form [formGroup]="form" (ngSubmit)="onSubmit()">
       <div class="row">
         <div class="col-6">
-          <span>ชื่อ <label class="required">*</label></span>
+          <span>ชื่อ 666 <label class="required">*</label></span>
           <mat-form-field appearance="outline">
             <input formControlName="firstName" matInput />
             <mat-error *ngIf="firstName.invalid">กรุณาระบุ</mat-error>
           </mat-form-field>
         </div>
         <div class="col-6">
-          <span>นามสกุล <label class="required">*</label></span>
+          <span>นามสกุล 555 <label class="required">*</label></span>
           <mat-form-field appearance="outline">
             <input formControlName="lastName" matInput />
             <mat-error *ngIf="lastName.invalid">กรุณาระบุ</mat-error>
